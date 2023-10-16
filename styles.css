@@ -1,17 +1,18 @@
-@import url('https://fonts.goog1eapis.com/css2?
-family-Poppins:see;see;7ee;800;9ee&
-display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    fon-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
 body  {
     background: #081b29;
+    color: #ededed;
 }
 
 .header{
@@ -51,4 +52,24 @@ body  {
 .navbar a.active {
     color: #00abf0;
 
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+   
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
 }
