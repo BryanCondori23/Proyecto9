@@ -11,7 +11,7 @@
 }
 
 body  {
-    background: #081b29;
+    background: #0a456f;
     color: #ededed;
 }
 
@@ -31,7 +31,7 @@ body  {
 
 .logo {
 
-    font-size: 25px;
+    font-size: 40px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -66,7 +66,7 @@ body  {
     max-width: 600px;
 }
 .home-content h1 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
 }
 .home-content h3{
